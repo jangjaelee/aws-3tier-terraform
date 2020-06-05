@@ -7,5 +7,5 @@ variable "region" {
 variable "ec2_keypair" {
   description = "ec2 keypair"
   type        = string
-  default     = "~/.ssh/id_rsa"
+  default     = "~/.ssh/id_rsa.pub"
 }
