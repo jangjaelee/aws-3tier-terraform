@@ -1,3 +1,6 @@
+## AWS 3-Tier architecture with Terraform
+
+'''
 ㅁ AWS IAM IaC 계정 생성
 
 ㅁ 생성 순서 (삭제는 역순)
@@ -10,7 +13,7 @@
 7) bastion-instance
 8) bastion-eip
 9) TGS
-10) ELB (ALB) included Rroute 53 alias (awx.co.kr / www.awx.co.kr)
+10) ELB (ALB) included Rroute 53 alias
 11) Packer
    ㄴ Web 서버 AMI 생성
    ㄴ WAS 서버 AMI 생성
@@ -40,3 +43,4 @@
     ㄴ File G/W
     ㄴ Volume G/W
     ㄴ VTL G/W
+'''
