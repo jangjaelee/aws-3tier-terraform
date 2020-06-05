@@ -1,6 +1,6 @@
 ## AWS 3-Tier architecture with Terraform
 
-'''
+```
 ㅁ AWS IAM IaC 계정 생성
 
 ㅁ 생성 순서 (삭제는 역순)
@@ -43,4 +43,4 @@
     ㄴ File G/W
     ㄴ Volume G/W
     ㄴ VTL G/W
-'''
+```
