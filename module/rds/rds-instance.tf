@@ -14,7 +14,7 @@ resource "aws_db_instance" "rds-instance" {
   # DB instance identifier
   identifier                   = "database-awx"
   username                     = "root"
-  password                     = "dlwkdwo1380"
+  password                     = "password"
 
   # DB instance size
   instance_class               = "db.t2.small"
