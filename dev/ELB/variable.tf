@@ -14,8 +14,8 @@ variable "awx-shop-dns-name" {
   description = "awx.kr DNS name"
   #description = "awx.co.kr DNS name"
   type        = string
-  default     = "awx.kr"
-  #default     = "awx.co.kr"
+  #default     = "awx.kr"
+  default     = "awx.co.kr"
 }
 
 variable "s3-alb-accesslog" {
